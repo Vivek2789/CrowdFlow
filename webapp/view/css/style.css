@@ -1,0 +1,446 @@
+.row {
+    height: 100%;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+.btn-login {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #277cff;
+    background-color: white;
+    color: #277cff;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-login:hover {
+    background-color: #277cff;
+    color: white;
+}
+
+.social {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+    transition: 0.15s;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border: none;
+}
+
+.social-media.facebook {
+    border-color: #3b5998;
+    color: #3b5998;
+}
+
+.social-media.facebook:hover {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-media.google {
+    border-color: #db4437;
+    color: #db4437;
+}
+
+.social-media.google:hover {
+    background-color: #db4437;
+    color: white;
+}
+
+.card:hover {
+    box-shadow : -1px 9px 40px -12px rgba(0,0,0,0.75); 
+}
+
+.card .card-body a {
+    color : black;
+    text-decoration: none;
+}
+
+label.error {
+    color : red;
+    font-style: italic;
+    font-size : 14px;
+}
+
+.form-row span {
+    color: gray;
+}
+
+#profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius : 100px;
+}
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+  
+  .card-custom-img {
+    height: 255px;
+    min-height: 255px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+  }
+  
+  /* First border-left-width setting is a fallback */
+  .card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 216px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+  }
+  
+  .card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    position: absolute;
+    top: 160px;
+    left: 1.25rem;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card-footer{
+      padding-top: 0;
+  }
+
+  .twitter-share, .facebook-share {
+    background: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1em 2em;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #fff;
+  }
+
+  .twitter-share, .facebook-share :hover{
+    background: black;
+  }
+
+
+/* 404 not found start */
+.error
+{
+  font-family: 'PT Sans Caption', sans-serif, 'arial', 'Times New Roman';
+}
+/* Error Page */
+    .error .clip .shadow
+    {
+        height: 180px;  /*Contrall*/
+    }
+    .error .clip:nth-of-type(2) .shadow
+    {
+        width: 130px;   /*Contrall play with javascript*/ 
+    }
+    .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow
+    {
+        width: 250px; /*Contrall*/
+    }
+    .error .digit
+    {
+        width: 150px;   /*Contrall*/
+        height: 150px;  /*Contrall*/
+        line-height: 150px; /*Contrall*/
+        font-size: 120px;
+        font-weight: bold;
+    }
+    .error h2   /*Contrall*/
+    {
+        font-size: 32px;
+    }
+    .error .msg /*Contrall*/
+    {
+        top: -190px;
+        left: 30%;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 32px;
+    }
+    .error span.triangle    /*Contrall*/
+    {
+        top: 70%;
+        right: 0%;
+        border-left: 20px solid #535353;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+    }
+
+
+    .error .container-error-404
+    {
+      margin-top: 10%;
+        position: relative;
+        height: 250px;
+        padding-top: 40px;
+    }
+    .error .container-error-404 .clip
+    {
+        display: inline-block;
+        transform: skew(-45deg);
+    }
+    .error .clip .shadow
+    {
+        
+        overflow: hidden;
+    }
+    .error .clip:nth-of-type(2) .shadow
+    {
+        overflow: hidden;
+        position: relative;
+        box-shadow: inset 20px 0px 20px -15px rgba(150, 150, 150,0.8), 20px 0px 20px -15px rgba(150, 150, 150,0.8);
+    }
+    
+    .error .clip:nth-of-type(3) .shadow:after, .error .clip:nth-of-type(1) .shadow:after
+    {
+        content: "";
+        position: absolute;
+        right: -8px;
+        bottom: 0px;
+        z-index: 9999;
+        height: 100%;
+        width: 10px;
+        background: linear-gradient(90deg, transparent, rgba(173,173,173, 0.8), transparent);
+        border-radius: 50%;
+    }
+    .error .clip:nth-of-type(3) .shadow:after
+    {
+        left: -8px;
+    }
+    .error .digit
+    {
+        position: relative;
+        top: 8%;
+        color: white;
+        background: #07B3F9;
+        border-radius: 50%;
+        display: inline-block;
+        transform: skew(45deg);
+    }
+    .error .clip:nth-of-type(2) .digit
+    {
+        left: -10%;
+    }
+    .error .clip:nth-of-type(1) .digit
+    {
+        right: -20%;
+    }.error .clip:nth-of-type(3) .digit
+    {
+        left: -20%;
+    }    
+    .error h2
+    {
+        color: #A2A2A2;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .error .msg
+    {
+        position: relative;
+        z-index: 9999;
+        display: block;
+        background: #535353;
+        color: #A2A2A2;
+        border-radius: 50%;
+        font-style: italic;
+    }
+    .error .triangle
+    {
+        position: absolute;
+        z-index: 999;
+        transform: rotate(45deg);
+        content: "";
+        width: 0; 
+        height: 0; 
+    }
+
+/* Error Page */
+@media(max-width: 767px)
+{
+    /* Error Page */
+            .error .clip .shadow
+            {
+                height: 100px;  /*Contrall*/
+            }
+            .error .clip:nth-of-type(2) .shadow
+            {
+                width: 80px;   /*Contrall play with javascript*/ 
+            }
+            .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow
+            {
+                width: 100px; /*Contrall*/
+            }
+            .error .digit
+            {
+                width: 80px;   /*Contrall*/
+                height: 80px;  /*Contrall*/
+                line-height: 80px; /*Contrall*/
+                font-size: 52px;
+            }
+            .error h2   /*Contrall*/
+            {
+                font-size: 24px;
+            }
+            .error .msg /*Contrall*/
+            {
+                top: -110px;
+                left: 15%;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 18px;
+            }
+            .error span.triangle    /*Contrall*/
+            {
+                top: 70%;
+                right: -3%;
+                border-left: 10px solid #535353;
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+            }
+.error .container-error-404
+  {
+    height: 150px;
+  }
+        /* Error Page */
+}
+
+.overlay { position: relative; z-index: 20; } /*done*/
+    .ground-color { background: white; }  /*done*/
+    .item-bg-color { background: #EAEAEA } /*done*/
+    
+    /* Padding Section*/
+        .padding-top { padding-top: 10px; } /*done*/
+        .padding-bottom { padding-bottom: 10px; }   /*done*/
+        .padding-vertical { padding-top: 10px; padding-bottom: 10px; }
+        .padding-horizontal { padding-left: 10px; padding-right: 10px; }
+        .padding-all { padding: 10px; }   /*done*/
+
+        .no-padding-left { padding-left: 0px; }    /*done*/
+        .no-padding-right { padding-right: 0px; }   /*done*/
+        .no-vertical-padding { padding-top: 0px; padding-bottom: 0px; }
+        .no-horizontal-padding { padding-left: 0px; padding-right: 0px; }
+        .no-padding { padding: 0px; }   /*done*/
+    /* Padding Section*/
+
+    /* Margin section */
+        .margin-top { margin-top: 10px; }   /*done*/
+        .margin-bottom { margin-bottom: 10px; } /*done*/
+        .margin-right { margin-right: 10px; } /*done*/
+        .margin-left { margin-left: 10px; } /*done*/
+        .margin-horizontal { margin-left: 10px; margin-right: 10px; } /*done*/
+        .margin-vertical { margin-top: 10px; margin-bottom: 10px; } /*done*/
+        .margin-all { margin: 10px; }   /*done*/
+        .no-margin { margin: 0px; }   /*done*/
+
+        .no-vertical-margin { margin-top: 0px; margin-bottom: 0px; }
+        .no-horizontal-margin { margin-left: 0px; margin-right: 0px; }
+
+        .inside-col-shrink { margin: 0px 20px; }    /*done - For the inside sections that has also Title section*/ 
+    /* Margin section */
+
+    hr
+    { margin: 0px; padding: 0px; border-top: 1px dashed #999; }
+
+/* 404 not found end */
+
+ul.social-buttons {
+    margin-bottom: 0;
+  }
+  
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+  }
+  
+  ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #1E8449;
+  }
+
+  
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+.footer-copyright{
+    padding-top: 25px;
+    border-top: 1px dashed #fff;
+}
